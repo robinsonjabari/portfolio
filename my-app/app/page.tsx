@@ -17,18 +17,32 @@ export default function Home() {
           />
           <h1 className='text-4xl font-bold'>Jabari Robinson</h1>
           <p className='text-xl text-center max-w-md'>
-            Full-stack developer passionate about creating beautiful and
+            Computer science student passionate about creating beautiful and
             functional web applications.
           </p>
           <div className='flex gap-4'>
-            <Button variant='outline' size='icon'>
-              <Github className='h-4 w-4' />
+            <Button variant='outline' size='icon' asChild>
+              <a
+                href='https://github.com/robinsonjabari'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Github className='h-4 w-4' />
+              </a>
             </Button>
-            <Button variant='outline' size='icon'>
-              <Linkedin className='h-4 w-4' />
+            <Button variant='outline' size='icon' asChild>
+              <a
+                href='https://www.linkedin.com/in/robinson-jabari/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Linkedin className='h-4 w-4' />
+              </a>
             </Button>
-            <Button variant='outline' size='icon'>
-              <Mail className='h-4 w-4' />
+            <Button variant='outline' size='icon' asChild>
+              <a href='mailto:jbrobinson15@icloud.com'>
+                <Mail className='h-4 w-4' />
+              </a>
             </Button>
           </div>
         </div>
