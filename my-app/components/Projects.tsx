@@ -40,9 +40,6 @@ export default function Projects() {
             <CardContent>
               <CardDescription>{project.description}</CardDescription>
             </CardContent>
-            <button type='button' onClick={() => router.push("/projects")}>
-              see
-            </button>
           </Card>
         ))}
       </div>
