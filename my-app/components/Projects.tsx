@@ -5,7 +5,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { useRouter } from "next/navigation"
 
 const projects = [
   {
@@ -26,8 +25,6 @@ const projects = [
 ]
 
 export default function Projects() {
-  const router = useRouter()
-
   return (
     <section className='my-16'>
       <h2 className='text-3xl font-bold mb-8 text-center'>Projects</h2>
