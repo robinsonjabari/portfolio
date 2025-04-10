@@ -9,7 +9,7 @@ export default function Home() {
       <div className='z-10 max-w-5xl w-full items-center justify-between font-mono text-sm'>
         <div className='flex flex-col items-center gap-8'>
           <Image
-            src='/Portfolioimg.jpg'
+            src='/Portfolio-img.jpg'
             alt='Profile Picture'
             width={150}
             height={150}
@@ -46,6 +46,35 @@ export default function Home() {
             </Button>
           </div>
         </div>
+
+        {/* About Me Section */}
+        <section className='my-16'>
+          <h2 className='text-3xl font-bold mb-6 text-center'>About Me</h2>
+          <div className='prose max-w-3xl mx-auto'>
+            <p className='mb-4'>
+              Hello! I'm Jabari, a computer science student with a passion for
+              web development and software engineering. My journey in tech began
+              with the curiosity behind users interaction with technology and
+              how code comes together to create interactive software.This
+              evolved into a deep interest in creating innovative digital
+              experiences.
+            </p>
+            <p className='mb-4'>
+              My skill set encompasses front-end development using React,
+              Next.js, and Tailwind CSS, along with a working knowledge of
+              back-end development and database management, contributing to my
+              understanding of the full-stack environment.
+            </p>
+            <p>
+              Outside of coding, I enjoy a diverse range of interests including
+              forex trading and analysis, roller skating, and music production.
+              I'm a firm believer in lifelong learning, always seeking new
+              technologies and insights from every experience and interaction to
+              expand my skillset.
+            </p>
+          </div>
+        </section>
+
         <Projects />
       </div>
     </main>
