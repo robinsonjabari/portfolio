@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         {/* About Me Section */}
-        <section className='my-16'>
+        {/* <section className='my-16'>
           <h2 className='text-3xl font-bold mb-6 text-center'>About Me</h2>
           <div className='prose max-w-3xl mx-auto'>
             <p className='mb-4'>
@@ -73,7 +73,7 @@ export default function Home() {
               expand my skillset.
             </p>
           </div>
-        </section>
+        </section> */}
 
         <Projects />
       </div>
