@@ -52,10 +52,10 @@ export default function Home() {
           <h2 className='text-3xl font-bold mb-6 text-center'>About Me</h2>
           <div className='max-w-3xl mx-auto text-base'>
             <p className='mb-4'>
-              Hello! I'm Jabari, a computer science student with a passion for
-              web development and software engineering. My journey in tech began
-              with the curiosity behind users interaction with technology and
-              how code comes together to create interactive software. This
+              Hello! I&apos;m Jabari, a computer science student with a passion
+              for web development and software engineering. My journey in tech
+              began with the curiosity behind users interaction with technology
+              and how code comes together to create interactive software. This
               evolved into a deep interest in creating innovative digital
               experiences.
             </p>
@@ -68,7 +68,7 @@ export default function Home() {
             <p>
               Outside of coding, I enjoy a diverse range of interests including
               forex trading and analysis, roller skating, and music production.
-              I'm a firm believer in lifelong learning, always seeking new
+              I&apos;m a firm believer in lifelong learning, always seeking new
               technologies and insights from every experience and interaction to
               expand my skillset.
             </p>
