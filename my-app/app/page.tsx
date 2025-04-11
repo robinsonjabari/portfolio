@@ -50,12 +50,12 @@ export default function Home() {
         {/* About Me Section */}
         <section className='my-16'>
           <h2 className='text-3xl font-bold mb-6 text-center'>About Me</h2>
-          <div className='prose max-w-3xl mx-auto'>
+          <div className='max-w-3xl mx-auto text-base'>
             <p className='mb-4'>
               Hello! I'm Jabari, a computer science student with a passion for
               web development and software engineering. My journey in tech began
               with the curiosity behind users interaction with technology and
-              how code comes together to create interactive software.This
+              how code comes together to create interactive software. This
               evolved into a deep interest in creating innovative digital
               experiences.
             </p>
