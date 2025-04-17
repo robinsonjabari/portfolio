@@ -230,8 +230,8 @@ export default function Home() {
 
             <div className='max-w-md mx-auto text-center'>
               <p className='mb-6'>
-                I'm currently open to new opportunities and collaborations. Feel
-                free to reach out!
+                I&apos;m currently open to new opportunities and collaborations.
+                Feel free to reach out!
               </p>
 
               <div className='flex justify-center gap-5 mb-8'>
